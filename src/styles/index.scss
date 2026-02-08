@@ -1,0 +1,46 @@
+@use "typography" as *;
+@use "variables" as *;
+
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header {
+  color: $text-color-main;
+
+  .navigation-link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.section-welcome {
+  background-image: url("/images/Welcome-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1200px;
+  height: 767px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-subscription {
+  background-image: url("/images/Subscribe-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-subscription {
+  width: 1200px;
+  height: 415px;
+  background-image: url("images/Subscribtion-background.jpg");
+}
+
+.visual-hidden {
+  visibility: hidden;
+}
