@@ -20,6 +20,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0%;
+  width: 1200px;
+  margin: 0;
 }
 
 h1 {
@@ -57,9 +59,4 @@ h4 {
   margin: 0;
 }
 
-.bg-wrapper {
-  width: 1200px;
-  height: 412px;
-  background-image: url(images/Filter-background.jpg);
-  background-repeat: no-repeat;
-}/*# sourceMappingURL=catalog.css.map */
+/*# sourceMappingURL=typography.css.map */

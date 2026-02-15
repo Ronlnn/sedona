@@ -55,7 +55,12 @@
   letter-spacing: 0%;
   text-transform: uppercase;
 }
-
+@mixin text-checkbox {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
 @mixin text-block {
   font-weight: 400;
   font-size: 18px;
@@ -90,6 +95,8 @@ body {
   background-color: $background-base;
   color: $text-color-main;
   @include text-basic();
+  width: 1200px;
+  margin: 0;
 }
 
 h1 {
